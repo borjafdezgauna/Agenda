@@ -10,6 +10,11 @@ namespace AgendaLib
     {
         List<Contact> Contacts = new List<Contact>();
 
+        public int NumContacts()
+        {
+            return Contacts.Count;
+        }
+
         public Agenda()
         {
 
