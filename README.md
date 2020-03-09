@@ -7,7 +7,7 @@ Master: [![Master](https://dev.azure.com/aecheverria044/miniSQL/_apis/build/stat
 Master: [![Master](https://dev.azure.com/iguanamanolo/MiniSQLDefinitive/_apis/build/status/404NotFound2020.MiniSQLDefinitive?branchName=master)](https://dev.azure.com/iguanamanolo/MiniSQLDefinitive/_build/latest?definitionId=1&branchName=master) | Develop: [![Develop](https://dev.azure.com/iguanamanolo/MiniSQLDefinitive/_apis/build/status/404NotFound2020.MiniSQLDefinitive?branchName=develop)](https://dev.azure.com/iguanamanolo/MiniSQLDefinitive/_build/latest?definitionId=1&branchName=develop)
 
 ## Los-angeles-de-borja
-(No hay un readme.txt)
+Master: [![Master](https://dev.azure.com/davidramos2306/davidramos2306/_apis/build/status/losAngelesDeBorja.Server?branchName=master)](https://dev.azure.com/davidramos2306/davidramos2306/_build/latest?definitionId=1&branchName=master) | Develop: [![Develop](https://dev.azure.com/davidramos2306/davidramos2306/_apis/build/status/losAngelesDeBorja.Server?branchName=dev)](https://dev.azure.com/davidramos2306/davidramos2306/_build/latest?definitionId=1&branchName=dev)
 
 ## Los picateclas
 Master: [![Master](https://dev.azure.com/anderpascual4/BrowseLib/_apis/build/status/paxcu.Los-Picateclas?branchName=master)](https://dev.azure.com/anderpascual4/BrowseLib/_build/latest?definitionId=1&branchName=master) | Develop: [![Develop](https://dev.azure.com/anderpascual4/BrowseLib/_apis/build/status/paxcu.Los-Picateclas?branchName=develop)](https://dev.azure.com/anderpascual4/BrowseLib/_build/latest?definitionId=1&branchName=develop)
