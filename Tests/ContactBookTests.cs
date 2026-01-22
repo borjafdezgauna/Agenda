@@ -10,7 +10,7 @@ namespace Tests
         public void RemoveContactAndNumContacts()
         {
             ContactBook contactBook = new ContactBook();
-            contactBook.AddContact(new Contact("María", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
+            contactBook.AddContact(new Contact("MarÃ­a", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
             Assert.Equal(1, contactBook.NumContacts());
             contactBook.AddContact(new Contact("Jacinto", "Independencia 2, 6.A", "Vitoria-Gasteiz", "jacinto@ehu.eus"));
             Assert.Equal(2, contactBook.NumContacts());
@@ -20,10 +20,10 @@ namespace Tests
         public void ContactByName()
         {
             ContactBook contactBook = new ContactBook();
-            contactBook.AddContact(new Contact("María", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
+            contactBook.AddContact(new Contact("MarÃ­a", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
             contactBook.AddContact(new Contact("Jacinto", "Independencia 2, 6.A", "Vitoria-Gasteiz", "jacinto@ehu.eus"));
 
-            Assert.NotNull(contactBook.ContactByName("María"));
+            Assert.NotNull(contactBook.ContactByName("MarÃ­a"));
             Assert.Null(contactBook.ContactByName("Ramona"));
             Assert.NotNull(contactBook.ContactByName("Jacinto"));
             Assert.Null(contactBook.ContactByName("Maria"));
@@ -33,7 +33,7 @@ namespace Tests
         public void ContactByEmail()
         {
             ContactBook contactBook = new ContactBook();
-            contactBook.AddContact(new Contact("María", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
+            contactBook.AddContact(new Contact("MarÃ­a", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
             contactBook.AddContact(new Contact("Jacinto", "Independencia 2, 6.A", "Vitoria-Gasteiz", "jacinto@ehu.eus"));
 
             Assert.NotNull(contactBook.ContactByName("maria@ehu.eus"));
@@ -46,7 +46,7 @@ namespace Tests
         public void ContactsBySubstring()
         {
             ContactBook contactBook = new ContactBook();
-            contactBook.AddContact(new Contact("María", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
+            contactBook.AddContact(new Contact("MarÃ­a", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
             contactBook.AddContact(new Contact("Jacinto", "Independencia 2, 6.A", "Vitoria-Gasteiz", "jacinto@ehu.eus"));
 
             List<Contact> contacts = contactBook.ContactsBySubstring("cinto");
@@ -61,7 +61,7 @@ namespace Tests
         public void LoadAndSave()
         {
             ContactBook contactBook = new ContactBook();
-            contactBook.AddContact(new Contact("María", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
+            contactBook.AddContact(new Contact("MarÃ­a", "Prado kalea 13, 2.B", "Vitoria-Gasteiz", "maria@ehu.eus"));
             contactBook.AddContact(new Contact("Jacinto", "Independencia 2, 6.A", "Vitoria-Gasteiz", "jacinto@ehu.eus"));
 
             Assert.True(contactBook.Save("test-file.txt"));

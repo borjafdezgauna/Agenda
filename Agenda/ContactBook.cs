@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -41,7 +40,7 @@ namespace AgendaLib
         public Contact ContactByName(string name)
         {
             //TODO 1
-            //You can use: List.Find() or for/if
+            //You can use: for/foreach/if
             //Example:
             //List<string> names;
             //string foundName = names.Find(n => n.Contains(name))
@@ -51,14 +50,14 @@ namespace AgendaLib
         public Contact ContactByEmail(string email)
         {
             //TODO 1
-            //You can use: List.Find() or for/if
+            //You can use: for/foreach/if
             return null;
         }
 
         public List<Contact> ContactsBySubstring(string substring)
         {
             //TODO 1
-            //You can use: List.Find() or for/if, and string.Contains()
+            //You can use: for/foreach/if, and string.Contains()
             return null;
         }
 
